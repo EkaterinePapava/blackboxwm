@@ -1,0 +1,921 @@
+# Georgian translation for blackbox.
+# Copyright (C) 2026 blackbox's authors.
+# This file is distributed under the same license as the blackbox package.
+# Ekaterine Papava <papava.e@gtu.ge>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: blackbox 0.77\n"
+"Report-Msgid-Bugs-To: http://github.com/bbidulock/blackboxwm\n"
+"POT-Creation-Date: 2021-05-11 23:54-0600\n"
+"PO-Revision-Date: 2026-02-21 21:53+0100\n"
+"Last-Translator: Ekaterine Papava <papava.e@gtu.ge>\n"
+"Language-Team: Georgian <(nothing)>\n"
+"Language: ka\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.8\n"
+
+#. TRANS The name of the submenu used for controlling slit options.
+#. TRANS The name of the submenu for controlling slit options.
+#: src/Slitmenu.cc:74 src/Configmenu.cc:154
+msgid "Slit Options"
+msgstr "დოკერი"
+
+#. TRANS The name of the submenu for controlling the direction of the slit.
+#: src/Slitmenu.cc:78
+msgid "Direction"
+msgstr "მიმართულება"
+
+#. TRANS The name of the submenu for controlling the placement of the slit.
+#. TRANS The name of the placement submenu of the toolbar options menu
+#. TRANS that allows the user to specify where they want the toolbar stacked
+#. TRANS with relation to other windows.
+#: src/Slitmenu.cc:81 src/Toolbarmenu.cc:70
+msgid "Placement"
+msgstr "განლაგება"
+
+#. TRANS Always place the slit on top of other windows.
+#. TRANS Always place the toolbar above other windows on the desktop.
+#. TRANS Always place this window above other windows.
+#: src/Slitmenu.cc:85 src/Toolbarmenu.cc:72 src/Windowmenu.cc:96
+msgid "Always on top"
+msgstr "ყოველთვის ყველა ფანჯარაზე ზემოდან"
+
+#. TRANS Automatically hide the slit when the pointer leaves the slit.
+#: src/Slitmenu.cc:87
+msgid "Auto hide"
+msgstr "ავტოდამალვა"
+
+#. TRANS The name of the submenu for controlling slit direction.
+#: src/Slitmenu.cc:137
+msgid "Slit Direction"
+msgstr "დოკერის მიმართულები"
+
+#. TRANS Arrange the slit horizontally (wider).
+#: src/Slitmenu.cc:141
+msgid "Horizontal"
+msgstr "ჰორიზონტალური"
+
+#. TRANS Arrange the slit vertically (taller).
+#: src/Slitmenu.cc:143
+msgid "Vertical"
+msgstr "ვერტიკალური"
+
+#. TRANS The name of the submenu for controlling slit placement.
+#: src/Slitmenu.cc:174
+msgid "Slit Placement"
+msgstr "დოკერის განთავსება"
+
+#. TRANS Place the slit in the top left (NW) corner of the screen.
+#. TRANS Top left corner of the screen.
+#: src/Slitmenu.cc:178 src/Toolbarmenu.cc:140
+msgid "Top Left"
+msgstr "ზედა მარცხენა"
+
+#. TRANS Place the slit in the center left (W) edge of the screen.
+#: src/Slitmenu.cc:180
+msgid "Center Left"
+msgstr "მარცხენა ცენტრი"
+
+#. TRANS Place the slit in the bottom left (SW) corner of the screen.
+#. TRANS Bottom left corner of the screen.
+#: src/Slitmenu.cc:182 src/Toolbarmenu.cc:147
+msgid "Bottom Left"
+msgstr "ქვედა მარცხენა"
+
+#. TRANS Place the slit in the center top (N) edge of the screen.
+#. TRANS Centered at the top of the screen.
+#: src/Slitmenu.cc:185 src/Toolbarmenu.cc:142
+msgid "Top Center"
+msgstr "ზედა ცენტრი"
+
+#. TRANS Place the slit in the center bottom (S) edge of the screen.
+#. TRANS Centered at the bottom of the screen.
+#: src/Slitmenu.cc:187 src/Toolbarmenu.cc:149
+msgid "Bottom Center"
+msgstr "ქვემოთ ცენტრში"
+
+#. TRANS Place the slit in the top right (NE) corner of the screen.
+#. TRANS Top right corner of the screen.
+#: src/Slitmenu.cc:190 src/Toolbarmenu.cc:144
+msgid "Top Right"
+msgstr "ზედა მარჯვენა"
+
+#. TRANS Place the slit in the center right (E) edge of the screen.
+#: src/Slitmenu.cc:192
+msgid "Center Right"
+msgstr "მარჯვენა ცენტრი"
+
+#. TRANS Place the slit in the bottom right (SE) corner of the screen.
+#. TRANS Bottom right corner of the screen.
+#: src/Slitmenu.cc:194 src/Toolbarmenu.cc:151
+msgid "Bottom Right"
+msgstr "ქვედა მარჯვენა"
+
+#. TRANS The name of the primary window manager configuration menu.
+#: src/Configmenu.cc:108
+msgid "Configuration Options"
+msgstr "კონფიგურაციის პარამეტრები"
+
+#. TRANS The name of the submenu for controlling the window focus model.
+#: src/Configmenu.cc:119 src/Configmenu.cc:228
+msgid "Focus Model"
+msgstr "ფოკუსის მოდელი"
+
+#. TRANS The name of the submenu for controlling automatic window placement.
+#: src/Configmenu.cc:121 src/Configmenu.cc:289
+msgid "Window Placement"
+msgstr "ფანჯრის მდებარეობა"
+
+#. TRANS The name of the submenu for controlling image dithering.
+#: src/Configmenu.cc:124 src/Configmenu.cc:386
+msgid "Image Dithering"
+msgstr "გამოსახულების დიზერინგი"
+
+#. TRANS When windows are moved they are moved opaquely (their contents show).
+#: src/Configmenu.cc:127
+msgid "Opaque Window Moving"
+msgstr "ფანჯრის შემცველობის ჩვენება გადაადგილებისას"
+
+#. TRANS When windows are resized they are resized opaquely (their contents show).
+#: src/Configmenu.cc:129
+msgid "Opaque Window Resizing"
+msgstr "ფანჯრის შემცველობის ჩვენება ზომის შეცვლისას"
+
+#. TRANS When window are maximized, they are maximized to the full screen size.
+#: src/Configmenu.cc:131
+msgid "Full Maximization"
+msgstr "სრული მაქსიმიზაცია"
+
+#. TRANS When new windows appear on the screen, they are focussed immediately.
+#: src/Configmenu.cc:133
+msgid "Focus New Windows"
+msgstr "ფოკუსი ახალ ფანჯრებზე"
+
+#. TRANS When changing to a workspace, the previous focussed window on that workspace is focussed.
+#: src/Configmenu.cc:135
+msgid "Focus Last Window on Workspace"
+msgstr "ფოკუსის სამუშაო სივრცის ბოლო ფანჯარაზე"
+
+#. TRANS The workspaces may be changed using the mouse wheel.
+#: src/Configmenu.cc:138
+msgid "Change Workspace with Mouse Wheel"
+msgstr "სამუშაო სივრცის გადართვა თაგუნას ბორბლით"
+
+#. TRANS The mouse wheel on the window title bar shades or unshades a window.
+#: src/Configmenu.cc:141
+msgid "Shade Windows with Mouse Wheel"
+msgstr "ფანჯრების დაჩრდილვა თაგუნას ბორბლით"
+
+#. TRANS The toolbar responds to mouse wheel actions.
+#: src/Configmenu.cc:144
+msgid "Toolbar Actions with Mouse Wheel"
+msgstr "ხელსაწყოთა პანელის ქმედებები თაგუნას ბორბლით"
+
+#. TRANS Disable global key binding by setting the Scroll Lock key.
+#: src/Configmenu.cc:147
+msgid "Disable Bindings with Scroll Lock"
+msgstr "Scroll Lock-ის ღილაკის ასახვების გამორთვა"
+
+#. TRANS The name of the submenu for controlling toolbar options.
+#: src/Configmenu.cc:151 src/Toolbarmenu.cc:60
+msgid "Toolbar Options"
+msgstr "ხელსაწყოთა პანელის მორგება"
+
+#. TRANS The user must click on a window to focus it.
+#: src/Configmenu.cc:232
+msgid "Click to Focus"
+msgstr "წკაპი ფოკუსისთვის"
+
+#. TRANS The user can move the mouse into the window to focus it.
+#: src/Configmenu.cc:234
+msgid "Sloppy Focus"
+msgstr "ფოკუსის გადაადგილებაზე"
+
+#. TRANS When a window is focused it is automatically raised.
+#: src/Configmenu.cc:236
+msgid "Auto Raise"
+msgstr "ავტომატური ამოწევა"
+
+#. TRANS When a window is clicked it is raised.
+#: src/Configmenu.cc:238
+msgid "Click Raise"
+msgstr "ამოწევა დაწკაპუნებისას"
+
+#. TRANS Arrange windows intelligently in rows.
+#: src/Configmenu.cc:293
+msgid "Smart Placement (Rows)"
+msgstr "ჭკვიანი განლაგება (მწკრივები)"
+
+#. TRANS Arrange windows intelligently in columns.
+#: src/Configmenu.cc:295
+msgid "Smart Placement (Columns)"
+msgstr "ჭკვიანი განლაგება (სვეტები)"
+
+#. TRANS Center windows.
+#: src/Configmenu.cc:297
+msgid "Center Placement"
+msgstr "ცენტრში მოთავსება"
+
+#. TRANS Arrange windows in a cascade.
+#: src/Configmenu.cc:299
+msgid "Cascade Placement"
+msgstr "კასკადური მოთავსება"
+
+#. TRANS When arranging windows, arrange from left to right.
+#: src/Configmenu.cc:304
+msgid "Left to Right"
+msgstr "მარცხნიდან მარჯვნივ"
+
+#. TRANS When arranging windows, arrange from right to left.
+#: src/Configmenu.cc:306
+msgid "Right to Left"
+msgstr "მარჯვნიდან მარცხნივ"
+
+#. TRANS When arranging windows, arrange from top to bottom.
+#: src/Configmenu.cc:308
+msgid "Top to Bottom"
+msgstr "ზემოდან ქვემოთ"
+
+#. TRANS When arranging windows, arrange from bottom to top.
+#: src/Configmenu.cc:310
+msgid "Bottom to Top"
+msgstr "ქვემოდან ზემოთ"
+
+#. TRANS When arranging windows, ignore the presence of shaded windows.
+#: src/Configmenu.cc:315
+msgid "Ignore Shaded Windows"
+msgstr "დაჩრდილული ფანჯრების იგნორი"
+
+#. TRANS Do not dither images.
+#: src/Configmenu.cc:390
+msgid "Do not dither images"
+msgstr "გამოსახულებების დიზერინგი არ მოხდება"
+
+#. TRANS Use a fast dither algorithm for dithering images.
+#: src/Configmenu.cc:392
+msgid "Use fast dither"
+msgstr "სწრაფი დიზერინგის გამოყენება"
+
+#. TRANS Use a high-quality dither algorithm for dithering images.
+#: src/Configmenu.cc:394
+msgid "Use high-quality dither"
+msgstr "მაღალხარისხიანი დიზერინგის გამოყენება"
+
+#. TRANS The name of a submenu that lists windows that are iconified.
+#. TRANS A menu of the window that are iconified and would otherwise appear
+#. TRANS on the workspace.
+#: src/Iconmenu.cc:39 src/Workspacemenu.cc:77
+msgid "Iconified Windows"
+msgstr "ხატულაში ჩაკეცილი ფანჯრები"
+
+#. TRANS Whether to show the toolbar or not.
+#: src/Toolbarmenu.cc:65
+msgid "Enable Toolbar"
+msgstr "ხელსაწყოთა პანელის ჩართვა"
+
+#. TRANS Automatically hide the toolbar when the pointer leaves the toolbar.
+#: src/Toolbarmenu.cc:74
+msgid "Auto Hide"
+msgstr "ავტომატურად დამალვა"
+
+#. TRANS The name of the menu that controls toolbar placement; i.e.,
+#. TRANS which corner or edge of the screen on which the toolbar is placed.
+#: src/Toolbarmenu.cc:136
+msgid "Toolbar Placement"
+msgstr "ხელსაწყოთა პანელის განთავსება"
+
+#. TRANS Send the window to another workspace without changing workspaces.
+#: src/Windowmenu.cc:77
+msgid "Send to Workspace"
+msgstr "გაგზავნა სამუშაო სივრცეზე"
+
+#. TRANS Show the window on all workspaces.
+#: src/Windowmenu.cc:79
+msgid "Occupy all Workspaces"
+msgstr "ყველა სამუშაო სივრცის დაკავება"
+
+#. TRANS Shade the window so that only the titlebar shows.
+#: src/Windowmenu.cc:82
+msgid "Shade"
+msgstr "დაჩრდილვა"
+
+#. TRANS Iconify the window so it is no longer visible.
+#: src/Windowmenu.cc:84
+msgid "Iconify"
+msgstr "დაპატარავება"
+
+#. TRANS Maximize the size of the window both vertically and horizontally.
+#: src/Windowmenu.cc:86
+msgid "Maximize"
+msgstr "გადიდება"
+
+#. TRANS Maximize the size of the window vertically.
+#: src/Windowmenu.cc:88
+msgid "Maximize Vert"
+msgstr "მაქსიმიზაცია ვერტიკალურად"
+
+#. TRANS Maximize the size of the window horizontally.
+#: src/Windowmenu.cc:90
+msgid "Maximize Horz"
+msgstr "მაქსიმიზაცია ჰორიზონტალურად"
+
+#. TRANS Resize the window to cover the entire screen.
+#: src/Windowmenu.cc:93
+msgid "Full Screen"
+msgstr "სრული ეკრანი"
+
+#. TRANS Always place this window below other windows.
+#: src/Windowmenu.cc:98
+msgid "Always on bottom"
+msgstr "ყოველთვის ბოლოში"
+
+#. TRANS Kill the process associated with the window.
+#: src/Windowmenu.cc:101
+msgid "Kill Client"
+msgstr "კლიენტის მოკვლა"
+
+#. TRANS Ask the application owning the window to close it.
+#: src/Windowmenu.cc:103
+msgid "Close"
+msgstr "დახურვა"
+
+#. TRANS The name of the submenu controlling the number of workspaces.
+#: src/Workspacemenu.cc:49
+msgid "Workspaces"
+msgstr "სამუშაო სივრცეები"
+
+#. TRANS Create a new workspace and append it to the list of workspaces.
+#: src/Workspacemenu.cc:54
+msgid "New Workspace"
+msgstr "ახალი სამუშაო სივრცე"
+
+#. TRANS Remove the last workspace from the list of workspaces and destroy it.
+#: src/Workspacemenu.cc:56
+msgid "Remove Last Workspace"
+msgstr "ბოლო სამუშაო სივრცის წაშლა"
+
+#: src/Screen.cc:168
+#, c-format
+msgid "%s: another window manager is already running on display '%s'\n"
+msgstr "%s: ეკრანზე '%s' უკვე გაშვებულია სხვა ფანჯრების მმართველი\n"
+
+#: src/Screen.cc:182
+#, c-format
+msgid "%s: managing screen %u using %s visual 0x%lx, depth %d\n"
+msgstr "%s: იმართება ეკრანი %u გამოიყენება %s ვიზუალი 0x%lx, სიღრმე %d\n"
+
+#: src/Screen.cc:1474
+#, c-format
+msgid "%s: menu file '%s' is empty\n"
+msgstr "%s: მენიუს ფაილი '%s' ცარიელია\n"
+
+#. TRANS The underscore '_' indicates the hot key.
+#: src/Screen.cc:1526
+msgid "_Blackbox"
+msgstr "_Blackbox"
+
+#. TRANS Launch a terminal.
+#: src/Screen.cc:1529
+msgid "xterm"
+msgstr "xterm"
+
+#. TRANS Restart the window manager.
+#: src/Screen.cc:1532
+msgid "Restart"
+msgstr "გადატვირთვა"
+
+#. TRANS Exit the window manager.
+#: src/Screen.cc:1535
+msgid "Exit"
+msgstr "გასვლა"
+
+#: src/Screen.cc:1635
+#, c-format
+msgid "%s: [exec] error, no menu label and/or command defined\n"
+msgstr "%s: [exec]-ის შეცდომა. მენიუს ჭდე ან/და ბრძანება აღწერილი არაა\n"
+
+#: src/Screen.cc:1645
+#, c-format
+msgid "%s: [exit] error, no menu label defined\n"
+msgstr "%s: [exit]-ის შეცდომა. მენიუს ჭდე აღწერილი არაა\n"
+
+#: src/Screen.cc:1656
+#, c-format
+msgid "%s: [style] error, no menu label and/or filename defined\n"
+msgstr "%s: [style]-ის შეცდომა. მენიუს ჭდე ან/და ფაილის სახელი აღწერილი არაა\n"
+
+#: src/Screen.cc:1669
+#, c-format
+msgid "%s: [config] error, no label defined\n"
+msgstr "%s: [config]-ის შეცდომა. ჭდე აღწერილი არაა\n"
+
+#: src/Screen.cc:1679
+#, c-format
+msgid "%s: [include] error, no filename defined\n"
+msgstr "%s: [include]-ის შეცდომა. ფაილის სახელი აღწერილი არაა\n"
+
+#: src/Screen.cc:1698
+#, c-format
+msgid "%s: [include] error: '%s' is not a regular file\n"
+msgstr "%s: [include]-ის შეცდომა: '%s' ჩვეულებრივი ფაილი არაა\n"
+
+#: src/Screen.cc:1719
+#, c-format
+msgid "%s: [submenu] error, no menu label defined\n"
+msgstr "%s: [submenu]-ის შეცდომა. მენიუს ჭდე აღწერილი არაა\n"
+
+#: src/Screen.cc:1741
+#, c-format
+msgid "%s: [restart] error, no menu label defined\n"
+msgstr "%s: [restart]-ის შეცდომა. მენიუს ჭდე აღწერილი არაა\n"
+
+#: src/Screen.cc:1757
+#, c-format
+msgid "%s: [reconfig] error, no menu label defined\n"
+msgstr "%s: [reconfig]-ის შეცდომა. მენიუს ჭდე აღწერილი არაა\n"
+
+#: src/Screen.cc:1772
+#, c-format
+msgid "%s: [stylesdir/stylesmenu] error, no directory defined\n"
+msgstr "%s: [stylesdir/stylesmenu]-ის შეცდომა. საქაღალდე აღწერილი არაა\n"
+
+#: src/Screen.cc:1785
+#, c-format
+msgid "%s: [stylesdir/stylesmenu] error, '%s' does not exist\n"
+msgstr "%s: [stylesdir/stylesmenu]-ის შეცდომა. '%s' არ არსებობს\n"
+
+#: src/Screen.cc:1791
+#, c-format
+msgid "%s: [stylesdir/stylesmenu] error, '%s' is not a directory\n"
+msgstr "%s: [stylesdir/stylesmenu]-ის შეცდომა. '%s' საქაღალდე არაა\n"
+
+#: src/Screen.cc:1849
+#, c-format
+msgid "%s: [workspaces] error, no menu label defined\n"
+msgstr "%s: [workspaces]-ის შეცდომა. მენიუს ჭდე აღწერილი არაა\n"
+
+#: src/Window.cc:544
+msgid "Unnamed"
+msgstr "უსახელო"
+
+#: src/Window.cc:1014
+#, c-format
+msgid "BlackboxWindow::BlackboxWindow(): creating 0x%lx\n"
+msgstr "BlackboxWindow::BlackboxWindow(): იქმნება 0x%lx\n"
+
+#: src/Window.cc:1043
+#, c-format
+msgid "BlackboxWindow::BlackboxWindow(): XGetWindowAttributes failed\n"
+msgstr "BlackboxWindow::BlackboxWindow(): XGetWindowAttributes ჩავარდა\n"
+
+#: src/Window.cc:1308
+#, c-format
+msgid "BlackboxWindow::~BlackboxWindow: destroying 0x%lx\n"
+msgstr "BlackboxWindow::~BlackboxWindow: ნადგურდება 0x%lx\n"
+
+#: src/Window.cc:2354
+#, c-format
+msgid "%s -- assumed: (%d, %d), real: (%d, %d)\n"
+msgstr "%s -- ნავარაუდევი: (%d, %d), რეალური: (%d, %d)\n"
+
+#: src/Window.cc:3304
+#, c-format
+msgid "BlackboxWindow::unmapNotifyEvent() for 0x%lx\n"
+msgstr "BlackboxWindow::unmapNotifyEvent() 0x%lx-ისთვის\n"
+
+#: src/Window.cc:3318
+#, c-format
+msgid "BlackboxWindow::destroyNotifyEvent() for 0x%lx\n"
+msgstr "BlackboxWindow::destroyNotifyEvent() 0x%lx-ისთვის\n"
+
+#: src/Window.cc:3331
+#, c-format
+msgid "BlackboxWindow::reparentNotifyEvent(): reparent 0x%lx to 0x%lx.\n"
+msgstr "BlackboxWindow::reparentNotifyEvent(): 0x%lx-ის მშობლის შეცვლა 0x%lx-ზე.\n"
+
+#: src/Window.cc:3349
+#, c-format
+msgid "BlackboxWindow::propertyNotifyEvent(): for 0x%lx\n"
+msgstr "BlackboxWindow::propertyNotifyEvent(): 0x%lx-ისთვის\n"
+
+#: src/Window.cc:3544
+#, c-format
+msgid "BlackboxWindow::exposeEvent() for 0x%lx\n"
+msgstr "BlackboxWindow::exposeEvent() 0x%lx-ისთვის\n"
+
+#: src/Window.cc:3616
+#, c-format
+msgid "BlackboxWindow::buttonPressEvent() for 0x%lx\n"
+msgstr "BlackboxWindow::buttonPressEvent() 0x%lx-ისთვის\n"
+
+#: src/Window.cc:3685
+#, c-format
+msgid "BlackboxWindow::buttonReleaseEvent() for 0x%lx\n"
+msgstr "BlackboxWindow::buttonReleaseEvent() 0x%lx-ისთვის\n"
+
+#: src/Window.cc:3728
+#, c-format
+msgid "BlackboxWindow::motionNotifyEvent() for 0x%lx\n"
+msgstr "BlackboxWindow::motionNotifyEvent() 0x-ისთვის%lx\n"
+
+#. TRANS The default name for a workspace with workspace number %u.
+#: src/Workspace.cc:61
+#, c-format
+msgid "Workspace %u"
+msgstr "სამუშაო სივრცე %u"
+
+#: util/bsetroot.cc:101
+#, c-format
+msgid "bsetroot: error: must specify one of: -solid, -mod, -gradient\n"
+msgstr "bsetroot: შეცდომა: უნდა იყოს ერთ-ერთი: -solid, -mod, -gradient\n"
+
+#: util/bsetroot.cc:336
+#, c-format
+msgid ""
+"  -display <string>        use display connection\n"
+"  -mod <x> <y>             modula pattern\n"
+"  -foreground, -fg <color> modula foreground color\n"
+"  -background, -bg <color> modula background color\n"
+"\n"
+"  -gradient <texture>      gradient texture\n"
+"  -from <color>            gradient start color\n"
+"  -to <color>              gradient end color\n"
+"\n"
+"  -solid <color>           solid color\n"
+"\n"
+"  -help                    print this help text and exit\n"
+msgstr ""
+"  -display <string>        ეკრანის კავშირის გამოყენება\n"
+"  -mod <x> <y>             მოდულას ნიმუში\n"
+"  -foreground, -fg <color> მოდულას წინა პლანის ფერი\n"
+"  -background, -bg <color> მოდულას ფონის ფერი\n"
+"\n"
+"  -gradient <texture>      გრადიენტის ტექსტურა\n"
+"  -from <color>            გრადიენტის საწყისი ფერი\n"
+"  -to <color>              გრადიენტის საბოლოო ფერი\n"
+"\n"
+"  -solid <color>           მყარი ფერი\n"
+"\n"
+"  -help                    ამ დახმარების ტექსტის გამოტანა და გასვლა\n"
+
+#: lib/Application.cc:73
+#, c-format
+msgid ""
+"%s:  X error: %s(%d) opcodes %d/%d\n"
+"  resource 0x%lx\n"
+msgstr ""
+"%s:  X-ის შეცდომა: %s(%d) ოპკოდები %d/%d\n"
+"  რესურსი 0x%lx\n"
+
+#: lib/Application.cc:233
+#, c-format
+msgid "%s: caught unknown signal '%u', dumping core.\n"
+msgstr "%s: დაჭერილია უცნობი სიგნალი '%u'. მიმდინარეობს დამპის ჩაწერა.\n"
+
+#: lib/Application.cc:508
+#, c-format
+msgid "unhandled event %d\n"
+msgstr "დაუმუშავებელი მოვლენა %d\n"
+
+#: lib/Application.cc:629
+#, c-format
+msgid "BaseDisplay::closeMenu: menu %p not valid.\n"
+msgstr "BaseDisplay::closeMenu: მენიუ %p არასწორია.\n"
+
+#: lib/Color.cc:157
+#, c-format
+msgid "bt::ColorCache: use %02x/%02x/%02x, count %4u\n"
+msgstr "bt::ColorCache: გამოიყენება %02x/%02x/%02x, რაოდენობა %4u\n"
+
+#: lib/Color.cc:174
+#, c-format
+msgid "bt::Color::pixel: cannot allocate color 'rgb:%02x/%02x/%02x'\n"
+msgstr "bt::Color::pixel: გამოყოფის შეცდომა ფერისთვის 'rgb:%02x/%02x/%02x'\n"
+
+#: lib/Color.cc:180
+#, c-format
+msgid "bt::ColorCache: add %02x/%02x/%02x, pixel %08lx\n"
+msgstr "bt::ColorCache: დაემატება %02x/%02x/%02x, პიქსელი %08lx\n"
+
+#: lib/Color.cc:205
+#, c-format
+msgid "bt::ColorCache: rel %02x/%02x/%02x, count %4u\n"
+msgstr "bt::ColorCache: მიმრაოდენობა %02x/%02x/%02x, count %4u\n"
+
+#: lib/Color.cc:217
+#, c-format
+msgid "bt::ColorCache: clearing cache, %u entries\n"
+msgstr "bt::ColorCache: კეში გასუფთავდება. %u ჩანაწერი\n"
+
+#: lib/Color.cc:234
+#, c-format
+msgid "bt::ColorCache: fre %02x/%02x/%02x, pixel %08lx\n"
+msgstr "bt::ColorCache: თვსფლ %02x/%02x/%02x, პიქსელი %08lx\n"
+
+#: lib/Color.cc:254
+#, c-format
+msgid "bt::ColorCache: cleared, %u entries remain\n"
+msgstr "bt::ColorCache: გასუფთავდა. დარჩა %u ცანაწერი\n"
+
+#: lib/Color.cc:270
+#, c-format
+msgid "bt::Color::namedColor: empty colorname\n"
+msgstr "bt::Color::namedColor: ცარიელი ფერის სახელი\n"
+
+#: lib/Color.cc:283
+#, c-format
+msgid "bt::Color::namedColor: invalid color '%s'\n"
+msgstr "bt::Color::namedColor: არასწორი ფერი '%s'\n"
+
+#: lib/Display.cc:70
+#, c-format
+msgid "bt::Display: failed to open display '%s'\n"
+msgstr "bt::Display: გახსნის შეცდომა ეკრანისთვის '%s'\n"
+
+#: lib/Display.cc:80
+#, c-format
+msgid "bt::Display: failed to mark connection close-on-exec\n"
+msgstr "bt::Display: კავშირის შესრულებისას-დასახურად მონიშვნა ჩვარდა\n"
+
+#: lib/Font.cc:200
+#, c-format
+msgid "bt::FontCache: ref set  '%s'\n"
+msgstr "bt::FontCache: მიმ დაყ  '%s'-ზე\n"
+
+#: lib/Font.cc:226 lib/Font.cc:260
+#, c-format
+msgid "bt::FontCache: add set  '%s'\n"
+msgstr "bt::FontCache: დამ დაყ  '%s'\n"
+
+#: lib/Font.cc:253
+#, c-format
+msgid "Warning: missing charset '%s' in fontset\n"
+msgstr "გაფრთხილება: ფონტების ნაკრებში სიმბოლოების ნაკრები '%s' აღმოჩენილი არაა\n"
+
+#: lib/Font.cc:286
+#, c-format
+msgid "bt::FontCache: %s Xft%u '%s'\n"
+msgstr "bt::FontCache: %s Xft%u '%s'\n"
+
+#: lib/Font.cc:305
+#, c-format
+msgid "bt::FontCache: skp Xft%u '%s'\n"
+msgstr "bt::FontCache: გამოტ Xft%u '%s'\n"
+
+#: lib/Font.cc:319
+#, c-format
+msgid "bt::Font: couldn't load Xft%u '%s'\n"
+msgstr "bt::Font: ვერ ჩაიტვირთა Xft%u '%s'\n"
+
+#: lib/Font.cc:326
+#, c-format
+msgid "bt::FontCache: add Xft%u '%s'\n"
+msgstr "bt::FontCache: დაემატა Xft%u '%s'\n"
+
+#: lib/Font.cc:349
+#, c-format
+msgid "bt::FontCache: rel      '%s'\n"
+msgstr "bt::FontCache: მიმ      '%s'\n"
+
+#: lib/Font.cc:367
+#, c-format
+msgid "bt::FontCache: clearing cache, %u entries\n"
+msgstr "bt::FontCache: კეშის გასუფთავება. %u ჩანაწერი\n"
+
+#: lib/Font.cc:377
+#, c-format
+msgid "bt::FontCache: fre      '%s'\n"
+msgstr "bt::FontCache: თვსფლ      '%s'\n"
+
+#: lib/Font.cc:392
+#, c-format
+msgid "bt::FontCache: cleared, %u entries remain\n"
+msgstr "bt::FontCache: გასუფთავდა. დარჩა %u ჩანაწერი\n"
+
+#: lib/Image.cc:234
+#, c-format
+msgid "bt::createShmImage: X server failed to attach\n"
+msgstr "bt::createShmImage: X სერვერმა ვერ მიამაგრა\n"
+
+#: lib/Image.cc:418
+#, c-format
+msgid "%s %3u: gray %04x\n"
+msgstr "%s %3u: ნაცრისფერი %04x\n"
+
+#: lib/Image.cc:433
+#, c-format
+msgid "%s %3u: %04x/%04x/%04x\n"
+msgstr "%s %3u: %04x/%04x/%04x\n"
+
+#: lib/Image.cc:463
+#, c-format
+msgid "query %3u: %04x/%04x/%04x\n"
+msgstr "მოთხოვნა %3u: %04x/%04x/%04x\n"
+
+#: lib/Image.cc:512
+#, c-format
+msgid "close %3u: %04x/%04x/%04x\n"
+msgstr "%3u-ის დახურვა: %04x/%04x/%04x\n"
+
+#: lib/Menu.cc:1178
+#, c-format
+msgid "Error: bt::Menu::verifyId: id %u already used\n"
+msgstr "შეცდომა: bt::Menu::verifyId: id %u უკვე გამოიყენება\n"
+
+#: lib/PixmapCache.cc:154
+#, c-format
+msgid "bt::PixmapCache: use %08lx %4ux%4u, count %4u\n"
+msgstr "bt::PixmapCache: გამოიყ %08lx %4ux%4u, რაოდ %4u\n"
+
+#: lib/PixmapCache.cc:166
+#, c-format
+msgid ""
+"bt::PixmapCache: add %08lx %4ux%4u\n"
+"                 mem %8lu max %8lu\n"
+msgstr ""
+"bt::PixmapCache: დმტბ %08lx %4ux%4u\n"
+"                 მეხს %8lu მაქს %8lu\n"
+
+#: lib/PixmapCache.cc:183
+#, c-format
+msgid ""
+"bt::PixmapCache: maximum size (%lu kb) exceeded\n"
+"bt::PixmapCache: current size: %lu kb\n"
+msgstr ""
+"bt::PixmapCache: მაქს. ზომა (%lu კბ) გადაცილებულია\n"
+"bt::PixmapCache: მიმდინარე ზომა: %lu კბ\n"
+
+#: lib/PixmapCache.cc:207
+#, c-format
+msgid "bt::PixmapCache: rel %08lx %4ux%4u, count %4u\n"
+msgstr "bt::PixmapCache: რელ %08lx %4ux%4u, რაოდ %4u\n"
+
+#: lib/PixmapCache.cc:218
+#, c-format
+msgid "bt::PixmapCache: clearing cache, %u entries\n"
+msgstr "bt::PixmapCache: კეშის გასუფთავება. %u ჩანაწერი\n"
+
+#: lib/PixmapCache.cc:226
+#, c-format
+msgid "bt::PixmapCache: skp %08lx %4ux%4u, count %4u\n"
+msgstr "bt::PixmapCache: გამოტ %08lx %4ux%4u, რაოდ %4u\n"
+
+#: lib/PixmapCache.cc:235
+#, c-format
+msgid "bt::PixmapCache: fre %08lx %4ux%4u\n"
+msgstr "bt::PixmapCache: გასუფთ %08lx %4ux%4u\n"
+
+#: lib/PixmapCache.cc:255
+#, c-format
+msgid ""
+"bt::PixmapCache: cleared, %u entries remain\n"
+"                 mem %8lu max %8lu\n"
+msgstr ""
+"bt::PixmapCache: გასუფთავდა. დარჩა %u ჩანაწერი\n"
+"                 მეხს %8lu მაქს %8lu\n"
+
+#: src/blackbox.cc:156
+#, c-format
+msgid "Blackbox::process_event(): MapRequest for 0x%lx\n"
+msgstr "Blackbox::process_event(): MapRequest 0x%lx-ისთვის\n"
+
+#: src/blackbox.cc:240
+#, c-format
+msgid "FocusIn : window %8lx mode %s detail %s\n"
+msgstr "FocusIn : ფანჯარა %8lx რეჟიმი %s დეტალი %s\n"
+
+#: src/blackbox.cc:261
+#, c-format
+msgid "          win %p got focus\n"
+msgstr "          ფანჯ %p-მა მიიღო ფოკუსი\n"
+
+#: src/blackbox.cc:278
+#, c-format
+msgid "FocusOut: window %8lx mode %s detail %s\n"
+msgstr "FocusOut: ფანჯარა %8lx რეჟიმი %s დეტალი %s\n"
+
+#: src/blackbox.cc:318
+#, c-format
+msgid "          focused moved to an override_redirect window\n"
+msgstr "          ფოკუსიანი გადავიდა override_redirect window-ზე\n"
+
+#: src/blackbox.cc:326
+#, c-format
+msgid "          win %p lost focus\n"
+msgstr "          ფანჯ-მა %p დაკარგა ფოკუსი\n"
+
+#: src/blackbox.cc:332
+#, c-format
+msgid "          no window has focus\n"
+msgstr "          ფოკუსი არცერთ ფანჯარას აქვს\n"
+
+#: src/blackbox.cc:416
+#, c-format
+msgid "X server does not support locale\n"
+msgstr "X სერვერს ლოკალის დაყენების მხარდაჭერა არ აქვს\n"
+
+#: src/blackbox.cc:419
+#, c-format
+msgid "cannot set locale modifiers\n"
+msgstr "ლოკალის მოდიფიკატორების დაყენება შეუძლებელია\n"
+
+#: src/blackbox.cc:459
+#, c-format
+msgid "%s: no manageable screens found, exiting...\n"
+msgstr "%s: მართვადი ეკრანი აღმოჩენილი არაა. გასვლა...\n"
+
+#: src/main.cc:45 src/main.cc:105
+#, c-format
+msgid ""
+"Blackbox %s\n"
+"Copyright (c) 2001 - 2005 Sean 'Shaleh' Perry\n"
+"Copyright (c) 1997 - 2000, 2002 - 2005 Bradley T Hughes\n"
+msgstr ""
+"Blackbox %s\n"
+"Copyright (c) 2001 - 2005 Sean 'Shaleh' Perry\n"
+"Copyright (c) 1997 - 2000, 2002 - 2005 Bradley T Hughes\n"
+
+#: src/main.cc:51
+#, c-format
+msgid ""
+"  -display <string>\t\tuse display connection.\n"
+"  -single <string>\t\tmanage the default screen only\n"
+"  -rc <string>\t\t\tuse alternate resource file.\n"
+"  -version\t\t\tdisplay version and exit.\n"
+"  -help\t\t\t\tdisplay this help text and exit.\n"
+"\n"
+msgstr ""
+"  -display <string>\t\tეკრანთან კავშირის გამოყენება.\n"
+"  -single <string>\t\tმხოლოდ ნაგულისხმევი ეკრანის მართვა\n"
+"  -rc <string>\t\t\tსხვა რესურსების ფაილის გამოყენება.\n"
+"  -version\t\t\tვერსიის ჩვენება და გასვლა.\n"
+"  -help\t\t\t\tამ დახმარების ტექსტის ჩვენება და გასვლა.\n"
+"\n"
+
+#: src/main.cc:59
+#, c-format
+msgid ""
+"Compile time options:\n"
+"  Debugging:\t\t\t%s\n"
+"  SHAPE:\t\t\t%s\n"
+"  MIT-SHM:\t\t\t%s\n"
+"  XFT:\t\t\t\t%s\n"
+"\n"
+msgstr ""
+"კომპილაციის დროის პარამეტრები:\n"
+"  გამართვა:\t\t\t%s\n"
+"  SHAPE:\t\t\t%s\n"
+"  MIT-SHM:\t\t\t%s\n"
+"  XFT:\t\t\t\t%s\n"
+"\n"
+
+#: src/main.cc:65 src/main.cc:71 src/main.cc:76 src/main.cc:81
+msgid "yes"
+msgstr "დიახ"
+
+#: src/main.cc:67 src/main.cc:73 src/main.cc:78 src/main.cc:83
+msgid "no"
+msgstr "არა"
+
+#: src/main.cc:115
+#, c-format
+msgid "error: '-rc' requires and argument\n"
+msgstr "შეცდომა: პარამეტრს '-rc' არგუმენტი სჭირდება\n"
+
+#: src/main.cc:125
+#, c-format
+msgid "error: '-display' requires an argument\n"
+msgstr "შეცდომა: პარამეტრს '-display' არგუმენტი სჭირდება\n"
+
+#: src/main.cc:135
+#, c-format
+msgid "warning: couldn't set environment variable 'DISPLAY'\n"
+msgstr "გაფრთხილება: დაყენების შეცდომა გარემოს ცვლადისთვის 'DISPLAY'\n"
+
+#: src/StackingList.cc:198
+#, c-format
+msgid "  0x%lx: window 0x%lx %p '%s'\n"
+msgstr "  0x%lx: ფანჯარა 0x%lx %p '%s'\n"
+
+#: src/StackingList.cc:202
+#, c-format
+msgid "  0x%lx: %p unknown entity\n"
+msgstr "  0x%lx: %p უცნობი ობიექტი\n"
+
+#: src/StackingList.cc:205
+#, c-format
+msgid "  zero\n"
+msgstr "  ნული\n"
+
+#: src/StackingList.cc:212
+#, c-format
+msgid "Stack:\n"
+msgstr "დასტა:\n"
+
+#: src/StackingList.cc:216
+#, c-format
+msgid "Layers:\n"
+msgstr "ფენები:\n"
